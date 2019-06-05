@@ -1,9 +1,14 @@
 import React from "react";
 
 const DateRangeSlider = () => (
-    <div className="my-1">
-        <input type="range" className="custom-range" id="customRange1"/>
-    </div>
+	<div className="date-range-slider">
+	    <div className="date-range-track">
+	    	<div className="date-range-thumb">
+	    	</div>
+	    	<div className="date-range-thumb">
+	    	</div>
+	    </div>
+	</div>
 );
 
 export default DateRangeSlider;
